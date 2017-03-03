@@ -1,0 +1,113 @@
+body {
+  background: grey;
+  text-align: center;
+}
+
+.well {
+  background: orange;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 12.5%;
+}
+
+h1 {
+  margin-top: 0;
+  border-radius: 13px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  background: white;
+}
+
+#filters li {
+  display: inline;
+}
+
+li button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#on {
+  background-color: green;
+}
+
+#all {
+  background-color: blue;
+}
+
+#off {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list {
+  margin: 15px 25%;
+  padding: 0 15px;
+  box-shadow: 5px 5px 5px #888888;
+  line-height: 4em;
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.list img {
+  width: 9%;
+  border-radius: 100px;
+  vertical-align: middle;
+  float: left;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.list:hover {
+  text-align: center;
+  background: white;
+  text-overflow: inherit;
+  overflow: visible;
+  white-space: normal;
+  height: auto;
+}
+
+.list:hover img{
+  border-radius: 100px;
+  margin: 15px 33% 0 33%;
+  float: clear;
+  width: 34%;
+  text-align: center;
+}
+
+.online {
+  display: block;
+  background: lightgreen;
+}
+
+.online:hover {
+  line-height: 2em;
+}
+
+.offline {
+  background: red;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
